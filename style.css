@@ -189,3 +189,7 @@ button:focus{
     text-decoration: underline 1px solid white;
     text-underline-offset: 3px;
 }
+.skill-card{
+    border-radius: 25px !important;
+    background-color: #1F1F21 !important;
+}
