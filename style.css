@@ -4,14 +4,20 @@
     background-color:#161618 ;
 }
 .header-background-color{
-    background-color: #1F1F21;
+    background-color:#161618 !important;
+    /* background-color: #1F1F21; */
 }
 .main-background{
     background-color:#161618 ;
 }
+
 .nav-link {
     font: #B2B2B2;
 }
+.navbar-dark .navbar-toggler{ 
+    border-color: #161618 !important;
+}
+
 .navbar-title{
     font-family: 'Sofia Pro', sans-serif;
     font-weight: 300;
