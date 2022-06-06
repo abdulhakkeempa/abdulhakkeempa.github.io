@@ -1,4 +1,4 @@
-//Typed js Code
+    //Typed js Code
     var typed = new Typed(".auto-input", {
     strings: [" , I am"],
     typeSpeed:105,
@@ -29,13 +29,6 @@
         })
     })
     
-    $(document).ready(function () {
-        $("ul.navbar-nav > li").click(function (e) {
-         $("ul.navbar-nav > li").removeClass("active");
-         $(this).addClass("active");
-          });
-      });
-
     const navLinks = document.querySelectorAll('.nav-item')
     const menuToggle = document.getElementById('navbarTogglerDemo03')
     const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
@@ -44,3 +37,12 @@
             l.addEventListener('click', () => { bsCollapse.toggle() })
         }
     })
+
+
+    $(document).ready(function () {
+        $("ul.navbar-nav > li").click(function (e) {
+         $("ul.navbar-nav > li").removeClass("active");
+         $(this).addClass("active");
+          });
+      });
+

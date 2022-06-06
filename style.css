@@ -2,6 +2,7 @@
 
 .body{
     background-color:#161618 ;
+    position: relative !important;
 }
 .header-background-color{
     background-color:#161618 !important;
@@ -14,7 +15,7 @@
    color: white !important;
 }
 .nav-link {
-    font: #B2B2B2;
+    font: #878787;
 }
 .navbar-dark .navbar-toggler{ 
     border-color: #161618 !important;
