@@ -28,3 +28,12 @@
             }
         })
     })
+    
+    const navLinks = document.querySelectorAll('.nav-item')
+    const menuToggle = document.getElementById('navbarTogglerDemo03')
+    const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+    navLinks.forEach((l) => {
+        if (screen.width < 992) {
+            l.addEventListener('click', () => { bsCollapse.toggle() })
+        }
+    })
