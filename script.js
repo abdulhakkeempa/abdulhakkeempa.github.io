@@ -29,6 +29,13 @@
         })
     })
     
+    $(document).ready(function () {
+        $("ul.navbar-nav > li").click(function (e) {
+         $("ul.navbar-nav > li").removeClass("active");
+         $(this).addClass("active");
+          });
+      });
+
     const navLinks = document.querySelectorAll('.nav-item')
     const menuToggle = document.getElementById('navbarTogglerDemo03')
     const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})

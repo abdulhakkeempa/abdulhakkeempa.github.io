@@ -10,7 +10,9 @@
 .main-background{
     background-color:#161618 ;
 }
-
+.navbar-nav > .active > a {
+   color: white !important;
+}
 .nav-link {
     font: #B2B2B2;
 }
