@@ -205,6 +205,8 @@ button:focus{
     transition-duration: 0.5s;
 }
 .to-do-image{
-    filter: drop-shadow(0 0 10px rgb(66, 66, 66)) !important;
-    
+    filter: drop-shadow(0 0 10px rgb(66, 66, 66)) !important;   
+}
+.btn{
+    box-shadow: none !important;
 }
