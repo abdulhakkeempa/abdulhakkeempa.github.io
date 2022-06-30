@@ -236,19 +236,60 @@
           <div class="title-styling col-12 mt-4">
             <h4 class="text-center" style="color: white;">PROJECTS</h4>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 mt-4">
+
+          <div class="col-12 col-md-6 col-lg-3 mt-4">
+            <div class="card text-center bg-success card-color">
+                <img src="images/to-do.png" class="card-img-top to-do-image" alt="..." style="border-radius: 40px;">
+                <div class="card-body">
+                  <h6 class="card-title text-white card-title-style">TO DO APP - DJANGO FRAMEWORK</h6>
+                  <button type="button" class="btn btn-dark mt-3 technology-style" data-bs-toggle="modal" data-bs-target="#toDoModal">
+                    Read More
+                  </button>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 mt-4">
             <div class="card text-center card-color">
                 <img src="images/Monitor 1.png" class="card-img-top" alt="..." style="border-radius: 40px;">
                 <div class="card-body">
-                  <h5 class="card-title text-white card-title-style">PERSONAL RESPONSIVE PORTFOLIO WEBSITE</h5>
-                  <button type="button" class="btn btn-success mt-3 technology-style" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <h6 class="card-title text-white card-title-style">PERSONAL RESPONSIVE PORTFOLIO WEBSITE</h6>
+                  <button type="button" class="btn btn-dark mt-3 technology-style" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Read More
                   </button>
                 </div>
               </div>
         </div>
-
         <!-- Modal -->
+        <div class="modal fade" id="toDoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+              <div class="modal-header" style="background-color: #323236; border: none;">
+                  <h6 class="modal-title technology-style" id="exampleModalLabel" style="color:#C8C8C8 ;">TO DO APP</h6>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="col-12 text-center technology-style">
+                  <h5 class="underline-style">TECHNOLOGIES USED</h5>
+                  <ul style="list-style: none;" class="p-0">
+                      <li>Python</li>
+                      <li>Django (Framework)</li>
+                      <li>Sqlite3</li>
+                      <li>HTML5</li>
+                      <li>Bootstrap 5</li>
+                      <li>Git</li>
+                      <li>Github</li>
+                    </ul>
+                    <a class="btn btn-outline-success" href="https://github.com/hakkeempa/to-do-app-Django" target="_blank" rel="noopener noreferrer"><i class="bi bi-github me-2"></i>    Source Code</a>             
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content bg-dark text-white">
@@ -259,7 +300,7 @@
                 <div class="modal-body">
                   <div class="col-12 text-center technology-style">
                     <h5 class="underline-style">TECHNOLOGIES USED</h5>
-                    <ul style="list-style: none;">
+                    <ul style="list-style: none;" class="p-0">
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>JavaScript</li>
@@ -271,6 +312,7 @@
                         <li>Github</li>
                         <li>Adobe Photoshop</li> 
                     </ul>
+                    <a class="btn btn-outline-success" href="https://github.com/hakkeempa/hakkeempa.github.io" target="_blank" rel="noopener noreferrer"><i class="bi bi-github me-2"></i>    Source Code</a>
                   </div>
                 </div>
               </div>
